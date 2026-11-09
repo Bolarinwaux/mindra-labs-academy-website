@@ -21,3 +21,4 @@ export const WhatsAppButton: React.FC = () => {
     </a>
   );
 };
+

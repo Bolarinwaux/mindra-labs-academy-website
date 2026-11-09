@@ -52,3 +52,4 @@ export const ageTracksData: AgeTrack[] = [
     ctaText: "Enrol in Future Creators",
   },
 ];
+

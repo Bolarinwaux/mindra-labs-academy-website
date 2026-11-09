@@ -174,3 +174,4 @@ export const LearningPathways: React.FC = () => {
     </section>
   );
 };
+

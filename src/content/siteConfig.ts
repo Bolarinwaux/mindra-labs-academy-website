@@ -8,3 +8,4 @@ export const siteConfig = {
   locations: ["Osun", "Lagos (Nigeria)", "London (UK)"],
   copyrightYear: new Date().getFullYear(),
 };
+

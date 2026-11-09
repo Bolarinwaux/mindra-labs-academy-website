@@ -14,3 +14,4 @@ export interface EnquirySubmissionResponse {
   success: boolean;
   message: string;
 }
+

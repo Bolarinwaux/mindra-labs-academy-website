@@ -98,3 +98,4 @@ src/
 
 - **Admissions Email:** [mindralabsacademy@gmail.com](mailto:mindralabsacademy@gmail.com)
 - **Locations:** Osun • Lagos (Nigeria) • London (UK)
+

@@ -42,3 +42,4 @@ export const faqsData: FAQItem[] = [
       "Yes! We actively partner with schools across Nigeria and the UK to power after-school tech clubs, custom curriculum integration, and educator workshops.",
   },
 ];
+

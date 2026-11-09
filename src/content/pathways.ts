@@ -147,3 +147,4 @@ export const pathwaysData: Record<'programming' | 'ai', LearningPathway> = {
     ],
   },
 };
+
