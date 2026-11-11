@@ -4,8 +4,7 @@ export const siteConfig = {
   description:
     "We help young people develop coding, AI, creativity and problem-solving skills through practical, guided learning that prepares them for the future.",
   admissionsEmail: "mindralabsacademy@gmail.com",
-  defaultWhatsApp: "2348000000000", // Placeholder until exact number is provided; user can update in config
+  defaultWhatsApp: "2348139444569",
   locations: ["Osun", "Lagos (Nigeria)", "London (UK)"],
   copyrightYear: new Date().getFullYear(),
 };
-

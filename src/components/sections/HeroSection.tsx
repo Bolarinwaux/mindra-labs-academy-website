@@ -54,7 +54,7 @@ export const HeroSection: React.FC = () => {
               <BookOpen className="w-4 h-4" />
             </div>
             <div>
-              <p className="text-xs font-bold text-white leading-none">Ages 7–17</p>
+              <p className="text-xs font-bold text-white leading-none">Ages 7–18</p>
               <p className="text-[11px] text-slate-300 mt-1">Structured Paths</p>
             </div>
           </div>
@@ -94,4 +94,3 @@ export const HeroSection: React.FC = () => {
     </section>
   );
 };
-

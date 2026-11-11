@@ -18,7 +18,7 @@ export const PlacementGuidance: React.FC = () => {
           </p>
         </div>
         <a
-          href="#enrol"
+          href="#placement-questionnaire"
           className="shrink-0 px-6 py-3 rounded-full bg-brand-orange hover:bg-brand-orangeHover text-white text-xs font-bold shadow-md transition-all flex items-center gap-2"
         >
           <span>Enquire About Placement</span>
@@ -75,4 +75,3 @@ export const PlacementGuidance: React.FC = () => {
     </div>
   );
 };
-

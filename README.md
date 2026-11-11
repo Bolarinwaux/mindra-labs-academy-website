@@ -99,3 +99,27 @@ src/
 - **Admissions Email:** [mindralabsacademy@gmail.com](mailto:mindralabsacademy@gmail.com)
 - **Locations:** Osun • Lagos (Nigeria) • London (UK)
 
+## Placement assessment and WhatsApp setup
+
+The placement questionnaire is hosted by Tally and embedded in the Enrolment Desk. Tally manages
+the submission and redirects the parent to Mindra Labs on WhatsApp after completion. The website
+does not display a separate placement result or payment page, and the parent does not need to
+complete another form. The site does not need a Tally API key or `mindra_session` hidden field for
+this journey. The previous result/payment UI and verifier remain isolated in the codebase for
+possible reuse, but the public flow does not call them. `TALLY_API_KEY` is only needed if that
+legacy verifier is intentionally re-enabled.
+
+Before the flow is ready:
+
+1. In the Tally form, set **Child's Age** choices to exactly `7–12` and `13–18`.
+2. Set conditional logic for the programme-specific descriptions and questions: show Programming
+   content for Programming or Both, and AI content for Artificial Intelligence or Both.
+3. Under Tally's [**Redirect on completion**](https://tally.so/help/redirect-on-completion) setting,
+   use this URL:
+   `https://wa.me/2348139444569?text=Hello%20Mindra%20Labs%2C%0A%0AI%20have%20completed%20the%20placement%20assessment%20for%20my%20child%20and%20would%20like%20to%20proceed%20with%20the%20enrolment%20process.%0A%0APlease%20guide%20me%20on%20the%20recommended%20programme%20level%20and%20payment%20details.%0A%0AThank%20you.`
+4. Remove the `mindra_session` hidden field if one was added for the previous website-side result flow.
+5. Test each programme option and verify that the submission redirects to the correct WhatsApp number with the complete message. Do not send a real enrolment or payment during testing.
+
+After the redirect, Mindra Labs reviews the assessment and continues placement, enrolment and
+payment guidance in WhatsApp. Recommendations remain preliminary until the team confirms placement;
+the approved age ranges are 7–12 (Level 1 or 2) and 13–18 (Level 2 or 3).

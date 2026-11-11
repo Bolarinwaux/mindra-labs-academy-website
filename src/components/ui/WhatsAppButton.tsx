@@ -12,7 +12,7 @@ export const WhatsAppButton: React.FC = () => {
       target="_blank"
       rel="noopener noreferrer"
       title="Chat with Admissions on WhatsApp"
-      className="fixed bottom-6 right-6 z-50 w-12 h-12 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white flex items-center justify-center shadow-lg transition-transform hover:scale-105"
+      className="fixed bottom-6 right-6 z-50 hidden h-12 w-12 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white items-center justify-center shadow-lg transition-transform hover:scale-105 sm:flex"
       aria-label="Chat on WhatsApp"
     >
       <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24">
@@ -21,4 +21,3 @@ export const WhatsAppButton: React.FC = () => {
     </a>
   );
 };
-

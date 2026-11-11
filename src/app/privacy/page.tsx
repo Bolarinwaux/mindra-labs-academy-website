@@ -45,6 +45,21 @@ export default function PrivacyPage() {
             <li>Student age category (we do not collect full birthdates or sensitive IDs on enquiry).</li>
             <li>Previous programming and computing experience for placement evaluation.</li>
           </ul>
+          <p>
+            Our placement questionnaire is embedded on this website and provided by Tally. Responses
+            are submitted to and stored by Tally. To show a placement result, our server retrieves
+            the completed response from Tally for verification and processes it without saving it
+            to a separate database. Please review{' '}
+            <a
+              href="https://tally.so/help/gdpr"
+              className="text-emerald-700 font-semibold underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Tally&apos;s privacy information
+            </a>{' '}
+            for details about its handling of form data.
+          </p>
 
           <h3 className="text-lg font-bold text-slate-900">2. Student Safeguarding &amp; Consent</h3>
           <p>
@@ -78,4 +93,3 @@ export default function PrivacyPage() {
     </div>
   );
 }
-

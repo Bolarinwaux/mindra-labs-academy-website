@@ -35,6 +35,7 @@ export const LearningPathways: React.FC = () => {
           <div className="inline-flex p-1.5 rounded-2xl bg-slate-100 border border-slate-200/80 shadow-inner">
             <button
               type="button"
+              aria-pressed={isProgramming}
               onClick={() => setActiveTab('programming')}
               className={`px-6 py-2.5 rounded-xl font-extrabold text-xs sm:text-sm transition-all duration-200 flex items-center gap-2 ${
                 isProgramming
@@ -47,6 +48,7 @@ export const LearningPathways: React.FC = () => {
             </button>
             <button
               type="button"
+              aria-pressed={!isProgramming}
               onClick={() => setActiveTab('ai')}
               className={`px-6 py-2.5 rounded-xl font-bold text-xs sm:text-sm transition-all duration-200 flex items-center gap-2 ${
                 !isProgramming
@@ -174,4 +176,3 @@ export const LearningPathways: React.FC = () => {
     </section>
   );
 };
-

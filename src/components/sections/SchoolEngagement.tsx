@@ -74,8 +74,8 @@ export const SchoolEngagement: React.FC = () => {
             <div className="bg-white rounded-2xl overflow-hidden shadow-2xl text-slate-900">
               <div className="aspect-video w-full bg-slate-800 relative overflow-hidden">
                 <Image
-                  src="https://lh3.googleusercontent.com/aida/ALJJyrACMn-lxnmCh8ppRdqsxSXzwWVKgJEkDJPu4FVmqtUSn7Xo1PJI3x2Ru2R5I6GvxyzJHwMxNefWx-9odyz1sV7wfM0ni7yiKZAXzQJba-liNf-GqWRnM4mb4_5KGujPhPQ0fdTxEFjFNlRDOl3YCPbx_qqoVx0i-QZKnIEYB3brpD2wir8bI7RtfC_mPBOyRylgR0RWJ-BRgpfL2OrZ-D8GUnLljwW0USCjfZTWxkqhGQ"
-                  alt="Diverse students in a modern tech workshop guided by an encouraging mentor"
+                  src="/coding-workshop.svg"
+                  alt="Illustration of young learners collaborating on a coding project"
                   fill
                   sizes="(max-width: 768px) 100vw, 500px"
                   className="object-cover"
@@ -101,4 +101,3 @@ export const SchoolEngagement: React.FC = () => {
     </section>
   );
 };
-

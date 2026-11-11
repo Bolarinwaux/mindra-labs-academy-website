@@ -32,22 +32,22 @@ export const SiteFooter: React.FC = () => {
             <h4 className="text-white font-bold text-sm mb-4">Programmes</h4>
             <ul className="space-y-2 text-slate-400">
               <li>
-                <a href="#programmes" className="hover:text-emerald-400 transition-colors">
+                <a href="/#programmes" className="hover:text-emerald-400 transition-colors">
                   Young Innovators (7-12)
                 </a>
               </li>
               <li>
-                <a href="#programmes" className="hover:text-emerald-400 transition-colors">
-                  Future Creators (13-17)
+                <a href="/#programmes" className="hover:text-emerald-400 transition-colors">
+                  Future Creators (13-18)
                 </a>
               </li>
               <li>
-                <a href="#pathways" className="hover:text-emerald-400 transition-colors">
+                <a href="/#pathways" className="hover:text-emerald-400 transition-colors">
                   Programming Pathway
                 </a>
               </li>
               <li>
-                <a href="#pathways" className="hover:text-emerald-400 transition-colors">
+                <a href="/#pathways" className="hover:text-emerald-400 transition-colors">
                   AI Learning Pathway
                 </a>
               </li>
@@ -59,22 +59,22 @@ export const SiteFooter: React.FC = () => {
             <h4 className="text-white font-bold text-sm mb-4">For Schools</h4>
             <ul className="space-y-2 text-slate-400">
               <li>
-                <a href="#schools" className="hover:text-emerald-400 transition-colors">
+                <a href="/#schools" className="hover:text-emerald-400 transition-colors">
                   Curriculum Partner
                 </a>
               </li>
               <li>
-                <a href="#schools" className="hover:text-emerald-400 transition-colors">
+                <a href="/#schools" className="hover:text-emerald-400 transition-colors">
                   School Tech Clubs
                 </a>
               </li>
               <li>
-                <a href="#schools" className="hover:text-emerald-400 transition-colors">
+                <a href="/#schools" className="hover:text-emerald-400 transition-colors">
                   Teacher Workshops
                 </a>
               </li>
               <li>
-                <a href="#schools" className="hover:text-emerald-400 transition-colors">
+                <a href="/#schools" className="hover:text-emerald-400 transition-colors">
                   Safeguarding Standards
                 </a>
               </li>
@@ -94,17 +94,17 @@ export const SiteFooter: React.FC = () => {
                 </a>
               </li>
               <li>
-                <a href="#enrol" className="hover:text-emerald-400 transition-colors">
+                <a href="/#enrol" className="hover:text-emerald-400 transition-colors">
                   Admissions Desk
                 </a>
               </li>
               <li>
-                <a href="#pathways" className="hover:text-emerald-400 transition-colors">
+                <a href="/#pathways" className="hover:text-emerald-400 transition-colors">
                   Placement Guidance
                 </a>
               </li>
               <li>
-                <a href="#method" className="hover:text-emerald-400 transition-colors">
+                <a href="/#method" className="hover:text-emerald-400 transition-colors">
                   The Mindra Method
                 </a>
               </li>
@@ -122,7 +122,7 @@ export const SiteFooter: React.FC = () => {
             <Link href="/terms" className="hover:text-white transition-colors">
               Terms of Service
             </Link>
-            <a href="#schools" className="hover:text-white transition-colors">
+            <a href="/#schools" className="hover:text-white transition-colors">
               Safeguarding Policy
             </a>
           </div>
@@ -131,4 +131,3 @@ export const SiteFooter: React.FC = () => {
     </footer>
   );
 };
-

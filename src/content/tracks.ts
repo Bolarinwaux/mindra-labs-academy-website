@@ -29,7 +29,7 @@ export const ageTracksData: AgeTrack[] = [
   {
     id: "future-creators",
     title: "Future Creators Track",
-    ageRange: "AGES 13-17",
+    ageRange: "AGES 13-18",
     description:
       "Teenagers explore coding and AI in greater depth, strengthening their technical skills, creative thinking and ability to build practical digital solutions.",
     themeColor: "orange",
@@ -52,4 +52,3 @@ export const ageTracksData: AgeTrack[] = [
     ctaText: "Enrol in Future Creators",
   },
 ];
-
