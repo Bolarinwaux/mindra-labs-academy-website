@@ -1,3 +1,7 @@
+:root {
+  --font-jakarta: "Plus Jakarta Sans";
+  --font-inter: "Inter";
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
