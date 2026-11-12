@@ -101,7 +101,7 @@ export const LearningPathways: React.FC = () => {
               <div>
                 <div className="w-full h-44 mb-5 overflow-hidden rounded-2xl bg-slate-100">
   <img
-   src={`/images/${isProgramming ? 'programming' : 'ai'}-level-${Number(level.levelNumber)}.webp`}
+   src={`/Images/${isProgramming ? 'programming' : 'ai'}-level-${Number(level.levelNumber)}.webp`}
     alt={`${level.title} learning programme`}
     className="w-full h-full object-cover"
     loading="lazy"

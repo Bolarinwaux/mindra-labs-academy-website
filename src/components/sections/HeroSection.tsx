@@ -23,7 +23,7 @@ const features = [
 export function HeroSection() {
   return (
     <section className="relative isolate overflow-hidden bg-gradient-to-b from-[#06352B] to-[#04241E] text-white">
-      <div className="relative mx-auto grid min-h-[540px] max-w-[1440px] grid-cols-1 items-center gap-8 px-6 pb-24 pt-16 sm:px-10 lg:grid-cols-[1.08fr_0.92fr] lg:gap-6 lg:px-16 lg:pb-28 lg:pt-12">
+      <div className="relative mx-auto grid min-h-[540px] max-w-[1440px] grid-cols-1 items-center gap-8 px-6 pb-0 pt-16 sm:px-10 lg:grid-cols-[1.08fr_0.92fr] lg:gap-6 lg:px-16 lg:pb-28 lg:pt-12">
 
         {/* LEFT: TEXT AND CONTENT */}
         <div className="relative z-20 max-w-[620px]">
@@ -97,7 +97,7 @@ export function HeroSection() {
         <div className="relative z-10 mx-auto w-full max-w-[700px] lg:-mb-28 lg:self-end lg:origin-bottom-right lg:translate-x-12 lg:scale-[1.3] xl:translate-x-20">
           <div className="relative aspect-[1/1] w-full">
             <Image
-              src="/images/hero-students.webp"
+              src="/Images/hero-students.webp"
               alt="Two young learners exploring technology with their laptops"
               fill
               priority

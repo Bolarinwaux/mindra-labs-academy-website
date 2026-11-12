@@ -94,7 +94,7 @@ export const PlacementGuidance: React.FC = () => {
         {/* RIGHT: Standalone image */}
         <div className="min-h-[320px] lg:min-h-full overflow-hidden rounded-2xl">
           <img
-            src="/images/student-placement.webp"
+            src="/Images/student-placement.webp"
             alt="Students receiving guided learning support at Mindra Labs"
             className="w-full h-full min-h-[320px] object-cover"
             loading="lazy"

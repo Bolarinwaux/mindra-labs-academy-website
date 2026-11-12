@@ -35,8 +35,8 @@ export const TechnologyTracks: React.FC = () => {
     <img
       src={
         track.ageRange.includes('7')
-          ? '/images/young-innovators.webp'
-          : '/images/future-creators.webp'
+          ? '/Images/young-innovators.webp'
+          : '/Images/future-creators.webp'
       }
       alt={`Students learning at Mindra Labs - ${track.ageRange}`}
       className="w-full h-52 object-cover"

@@ -74,7 +74,7 @@ export const SchoolEngagement: React.FC = () => {
             <div className="bg-white rounded-2xl overflow-hidden shadow-2xl text-slate-900">
               <div className="aspect-video w-full bg-slate-800 relative overflow-hidden">
                 <Image
-                  src="/images/school-engagement.webp"
+                  src="/Images/school-engagement.webp"
                   alt="Illustration of young learners collaborating on a coding project"
                   fill
                   sizes="(max-width: 768px) 100vw, 500px"
