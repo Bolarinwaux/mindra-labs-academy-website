@@ -99,6 +99,14 @@ export const LearningPathways: React.FC = () => {
               className="border border-slate-200 rounded-3xl p-6 bg-white shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between"
             >
               <div>
+                <div className="w-full h-44 mb-5 overflow-hidden rounded-2xl bg-slate-100">
+  <img
+   src={`/images/${isProgramming ? 'programming' : 'ai'}-level-${Number(level.levelNumber)}.webp`}
+    alt={`${level.title} learning programme`}
+    className="w-full h-full object-cover"
+    loading="lazy"
+  />
+</div>
                 <div className="flex items-center justify-between mb-4">
                   <span
                     className={`px-3 py-1 rounded-full text-[11px] font-extrabold tracking-wide ${

@@ -30,8 +30,20 @@ export const TechnologyTracks: React.FC = () => {
                 key={track.id}
                 className="bg-white rounded-3xl p-8 border border-slate-200/90 shadow-sm flex flex-col justify-between relative overflow-hidden"
               >
-                <div>
-                  <div className="flex items-center justify-between mb-4">
+<div>
+  <div className="mb-6 overflow-hidden rounded-2xl">
+    <img
+      src={
+        track.ageRange.includes('7')
+          ? '/images/young-innovators.webp'
+          : '/images/future-creators.webp'
+      }
+      alt={`Students learning at Mindra Labs - ${track.ageRange}`}
+      className="w-full h-52 object-cover"
+    />
+  </div>
+
+  <div className="flex items-center justify-between mb-4">
                     <div className="flex items-center gap-2.5">
                       <div
                         className={`w-8 h-8 rounded-lg flex items-center justify-center font-bold ${
